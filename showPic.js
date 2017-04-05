@@ -1,6 +1,7 @@
 function prepareGallery() {
 	//分别检查当前浏览器是否理解getElementsByTagName,getElementById以及当前网页是否存在一个id为imagegallery的元素
 	//注意函数是getElementsByTagName,而不是getElementByTagName
+	//测试http改为ssh
 	if (!document.getElementsByTagName) return false;
 	if (!document.getElementById) return false;
 	if (!document.getElementById("imagegallery")) return false;
