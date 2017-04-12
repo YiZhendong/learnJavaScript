@@ -1,3 +1,4 @@
+//显示快捷键清单,这个函数显示文档中能够用到的所有快捷键
 function displayAccesskeys() {
 	if (!document.getElementsByTagName || !document.createElement || !document.createTextNode) {return false;}
 	//取得文档中的所有连接
@@ -32,7 +33,7 @@ function displayAccesskeys() {
 	}
 	//创建标题
 	var header = document.createElement("h3");
-	var header_text = document.createTextNode(str);
+	var header_text = document.createTextNode("Accesskeys");
 	header.appendChild(header_text);
 	document.body.appendChild(header);
 	document.body.appendChild(list);
