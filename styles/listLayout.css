@@ -1,0 +1,7 @@
+#slideshow {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	/*hidden，隐藏溢出的内容*/
+	overflow: hidden;
+}
