@@ -5,3 +5,6 @@
 	/*hidden，隐藏溢出的内容*/
 	overflow: hidden;
 }
+#preview {
+	position: absolute;
+}
